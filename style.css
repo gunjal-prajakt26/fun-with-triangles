@@ -1,0 +1,21 @@
+
+
+
+
+section {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+label, input, button {
+    margin-top: 2rem;
+}
+
+.output {
+    padding: 1em;
+    margin-top: 2rem;
+    display: block;
+}
