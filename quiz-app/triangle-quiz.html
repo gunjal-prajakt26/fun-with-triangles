@@ -6,35 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
     <h1 class="page-title">Welcome to triangle Quiz!</h1>
     <form class="form-container">
-        <label class="question-one">What is the third angle for the triangle where angle1 = 45° and angle2 =
-            45°?</label>
-        <br />
-        <input type="radio" value="45" id="que-one-opt-a" name="que-one-opt">45
-        <br />
-        <input type="radio" value="90" id="que-one-opt-b" name="que-one-opt">90
-        <br />
-        <input type="radio" value="60" id="que-one-opt-c" name="que-one-opt">60
-        <br />
-         <br/>   
-        <label class="question-two">If a triangle has an angle of 90 degrees, what is it called?</label>
-        <br />
-        <input type="radio" value="obtuse" id="que-two-opt-a" name="que-two-opt">obtuse
-        <br />
-        <input type="radio" value="acute" id="que-two-opt-b" name="que-two-opt">acute
-        <br />
-        <input type="radio" value="right-angled" id="que-two-opt-c" name="que-two-opt">right angled
-        <br />
+        <div class="quiz-form">
+            <p class="question-one">1. What is the third angle for the triangle where angle1 = 45° and angle2 =
+                45°?</p>
+            <label><input type="radio" value="45°" name="que-one-opt">45°</label>
+            <label><input type="radio" value="90°" name="que-one-opt">90°</label>
+            <label><input type="radio" value="60°" name="que-one-opt">60°</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-two">2. If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label><input type="radio" value="obtuse" name="que-two-opt">obtuse</label>
+            <label><input type="radio" value="acute" name="que-two-opt">acute</label>
+            <label><input type="radio" value="right angled" name="que-two-opt">right angled</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-three">3. What is an "Acute" Angle?</p>
+            <label><input type="radio" value="An angle that measures less than 90" name="que-three-opt">An angle that measures less than 90</label>
+            <label><input type="radio" value="An Angle that measures 90" name="que-three-opt">An Angle that measures 90</label>
+            <label><input type="radio" value="Angle that measures 180" name="que-three-opt">Angle that measures 180</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-four">4. How many acute angles must an acute triangle have?</p>
+            <label><input type="radio" value="2" name="que-four-opt">2</label>
+            <label><input type="radio" value="3" name="que-four-opt">3</label>
+            <label><input type="radio" value="1" name="que-four-opt">1</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-five">5. Which triangle has all three sides equal in length?</p>
+            <label><input type="radio" value="obtuse" name="que-five-opt">obtuse</label>
+            <label><input type="radio" value="Equilateral" name="que-five-opt">Equilateral</label>
+            <label><input type="radio" value="Isosceles" name="que-five-opt">Isosceles</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-six">6. What type of triangle has all angles measuring 60°?</p>
+            <label><input type="radio" value="Isosceles" name="que-six-opt">Isosceles</label>
+            <label><input type="radio" value="obtuse" name="que-six-opt">obtuse</label>
+            <label><input type="radio" value="Equilateral" name="que-six-opt">Equilateral</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-seven">7. Which triangle has three unequal sides?</p>
+            <label><input type="radio" value="Equilateral" name="que-seven-opt">Equilateral</label>
+            <label><input type="radio" value="Scalene" name="que-seven-opt"> Scalene</label>
+            <label><input type="radio" value="Isosceles" name="que-seven-opt">Isosceles</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-eight">8. A triangle has angles measuring 60°, 67° and 53°. What type of triangle is this?</p>
+            <label><input type="radio" value="Equilateral" name="que-eight-opt">Equilateral</label>
+            <label><input type="radio" value="Scalene" name="que-eight-opt"> Scalene</label>
+            <label><input type="radio" value="Isosceles" name="que-eight-opt">Isosceles</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-nine">9. Which triangle has all three angles less than 90°?</p>
+            <label><input type="radio" value="obtuse" name="que-nine-opt">obtuse</label>
+            <label><input type="radio" value="acute" name="que-nine-opt">acute</label>
+            <label><input type="radio" value="right angled" name="que-nine-opt">right angled</label>
+        </div>
+        <div class="quiz-form">
+            <p class="question-ten">10. Which triangle has an angle greater than 90°?</p>
+            <label><input type="radio" value="obtuse" name="que-ten-opt">obtuse</label>
+            <label><input type="radio" value="acute" name="que-ten-opt">acute</label>
+            <label><input type="radio" value="right angled" name="que-ten-opt">right angled</label>
+        </div>
 
     </form>
-        <button id="submit">Submit</button>
-        <br/>
-        <h2 class="output-display"></h2>
-    <script src="app.js"></script>
+    <button id="submit-btn">Submit</button>
+    <br />
+    <h2 class="output-display"></h2>
+    <script src="quiz-app.js"></script>
 </body>
 </html>
