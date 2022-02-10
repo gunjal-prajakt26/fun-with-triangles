@@ -14,7 +14,7 @@ label, input, button {
     margin-top: 2rem;
 }
 
-.output {
+.output, #output-display {
     padding: 1em;
     margin-top: 2rem;
     display: block;
