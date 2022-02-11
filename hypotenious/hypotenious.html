@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Hypotenious</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hypotenious-style.css">
 </head>
 <body>
     <header>
-
+        <nav class="navbar">
+            <div class="title-container">
+                <h1 class="nav-title">Fun with trainagles</h1>
+            </div>
+            <div class="navbar-menu">
+                <a href="../index.html" class="menu-items-1">is triangle?</a>
+                <a href="../quiz-app/triangle-quiz.html" class="menu-items-2">Quiz</a>
+                <a href="../hypotenious/hypotenious.html" class="menu-items-3">Hypotenious</a>
+                <a href="../area/area.html" class="menu-items-4">Area</a>
+            </div>
+        </nav>
     </header>
-    <section>
-        <label for="side-1">Enter first side : </label>
+    <section class="container">
+        <h3 class="section-title">Length of Hypotenuse = √(a² + b²)</h3>
+        <p class="input-labels" for="side-1">a : </p>
         <input type="number" class="side-1"/>
-        <br/>
-        <label for="side-2">Enter second side : </label>
+        <p class="input-labels" for="side-2">b : </p>
         <input type="number" class="side-2"/>
-        <br/>
         <button class="btn-calculate">calculate hypotenious</button>
-        <br/>
-
-        <h2 class="output"></h2>
+        <div class="output"></div>
     </section>
     
+    <script src="hypotenious-app.js"></script>
 </body>
-<script src="hypotenious-app.js"></script>
 </html>
