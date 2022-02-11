@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,35 @@
     <title>Is triangle?</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-
+        <nav class="navbar">
+            <div class="title-container">
+                <h1 class="nav-title">Fun with trainagles</h1>
+            </div>
+            <div class="navbar-menu">
+                <a href="index.html" class="menu-items-1">is triangle?</a>
+                <a href="quiz-app/triangle-quiz.html" class="menu-items-2">Quiz</a>
+                <a href="hypotenious/hypotenious.html" class="menu-items-3">Hypotenious</a>
+                <a href="area/area.html" class="menu-items-4">Area</a>
+            </div>
+        </nav>
     </header>
-    <section>
-        <label for="input-angle-1">Enter first angle : </label>
-        <input type="number" class="input-angle-1"/>
-        <br/>
-        <label for="input-angle-1">Enter first angle : </label>
-        <input type="number" class="input-angle-2"/>
-        <br/>
-        <label for="input-angle-1">Enter first angle : </label>
-        <input type="number" class="input-angle-3"/>
+    <section class="container">
+        <p class="input-labels" for="input-angle-1">first angle(in degree) : </p>
+        <input required type="number" class="input-angle-1" />
+        <p class="input-labels" for="input-angle-2">second angle(in degree)  : </p>
+        <input required type="number" class="input-angle-2" />
+        <p class="input-labels" for="input-angle-3">third angle(in degree)  : </p>
+        <input required type="number" class="input-angle-3" />
         <br/>
         <button class="btn-is-triangle">is triangle?</button>
-        <br/>
 
-        <h2 class="output"></h2>
+        <div class="output"></div>
     </section>
-    
+
 </body>
 <script src="app.js"></script>
+
 </html>

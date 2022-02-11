@@ -14,9 +14,9 @@ checkBtn.addEventListener('click', function isTriangle(){
     var sum = calculatesum(angleOne, angleTwo, angleThird);
 
     if(sum===180){
-        outputDisplay.innerText= "Yeh! It's a traiangle";
+        outputDisplay.innerText= "Yeh! It's a triangle";
     }else{
-    outputDisplay.innerText= "Sorry! It's not a traiangle";
+    outputDisplay.innerText= "Sorry! It's not a triangle";
     }
 });
 
