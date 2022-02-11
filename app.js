@@ -7,6 +7,7 @@ var outputDisplay = document.querySelector(".output");
 
 
 checkBtn.addEventListener('click', function isTriangle(){
+    outputDisplay.style.border= "2px solid #475569";
     var angleOne = Number(firstAngleInput.value);
     var angleTwo = Number(secondAngleInput.value);
     var angleThird = Number(thirdAngleInput.value);

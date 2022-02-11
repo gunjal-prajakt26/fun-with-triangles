@@ -10,5 +10,6 @@ checkBtn.addEventListener('click', function calculateHypotenious(){
     const b = secondsideInput.value;
     const sum = a*a + b*b;
     const c = Math.sqrt(sum);
+    outputDisplay.style.border= "2px solid #475569";
     outputDisplay.innerText= "Hypotenious is: "+ c.toFixed(2)+" cm";
 });
