@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color :#475569;
+    --secondary-color :white;
+}
+
+
+body {
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.32rem;
+}
+
+.container {
+    padding: 1rem;
+    margin:2rem auto;
+    width: 50%;
+    max-width: 500px;
+    
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar-menu {
+    align-self: flex-end;
+}
+
+a + a {
+    margin-left: 1rem;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 0px;
+    color: white;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    padding: .7rem 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+input {
+    margin:0px auto;
+    padding: 1em;
+    width: 475px;
+}
+
+.input-labels {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: .5em;
+    margin: 1rem auto;
+}
+
+button:hover {
+    opacity: .75;
+}
+
+.output {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.menu-items-4 {
+    padding: .5rem;
+    border-bottom: 2px solid;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover, a:active {
+    font-weight: bold;
+    color: white;
+}

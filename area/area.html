@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Area</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="area-style.css">
 </head>
 <body>
     <header>
-
+        <nav class="navbar">
+            <div class="title-container">
+                <h1 class="nav-title">Fun with trainagles</h1>
+            </div>
+            <div class="navbar-menu">
+                <a href="../index.html" class="menu-items-1">is triangle?</a>
+                <a href="../quiz-app/triangle-quiz.html" class="menu-items-2">Quiz</a>
+                <a href="../hypotenious/hypotenious.html" class="menu-items-3">Hypotenious</a>
+                <a href="../area/area.html" class="menu-items-4">Area</a>
+            </div>
+        </nav>
     </header>
-    <section>
-        <label for="input-base">Enter Base(in cm):  </label>
+    <section class="container">
+        <h3 class="section-title">Area of a triangle = 1/2(Base * Height)</h3>
+        <p class="input-labels" for="input-base">Enter Base(in cm):  </p>
         <input type="number" class="input-base"/>
-        <br/>
-        <label for="height-of-triangle">Enter height(in cm): </label>
+        <p class="input-labels" for="height-of-triangle">Enter height(in cm): </p>
         <input type="number" class="height-of-triangle"/>
-        <br/>
         <button class="btn-calculate">calculate area</button>
-        <br/>
-
-        <h2 class="output"></h2>
+        <p class="output"></p>
     </section>
     
 </body>
