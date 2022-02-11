@@ -10,5 +10,5 @@ checkBtn.addEventListener('click', function calculateHypotenious(){
     const b = secondsideInput.value;
     const sum = a*a + b*b;
     const c = Math.sqrt(sum);
-    outputDisplay.innerText= "Hypotenious is: "+ c.toFixed(2);
+    outputDisplay.innerText= "Hypotenious is: "+ c.toFixed(2)+" cm";
 });
