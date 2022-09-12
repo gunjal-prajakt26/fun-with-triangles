@@ -74,6 +74,10 @@ button:hover {
 
 .output-display {
     font-weight: bold;
+    padding: 1rem;
+    margin:2rem auto;
+    width: 50%;
+    max-width: 500px;
 }
 
 a {
