@@ -17,6 +17,6 @@ submitBtn.addEventListener('click', function calculateScore(){
        }
        index= index + 1 ;
     }
-    outputDisplay.style.border= "2px solid #475569";
+    output.style.border= "2px solid #475569";
     output.innerText = "Your Score is: " + score;
 });
